@@ -27,7 +27,7 @@ header {
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/memory/entrymon.jpg) no-repeat center;
   background-size: cover;
-  height: 35vh;
+  height: 40vh;
   color: #ccc;
   overflow: hidden;
 }
