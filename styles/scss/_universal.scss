@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: $defaultFont;
+  font-size: 110%;
+  background-color: #fff7f7;
+}
+
+a {
+text-decoration: none;
+font-weight: bold;
+color: #871e25;
+}
+
+//header
+
+header {
+  position: relative;
+  height: 50vh;
+  background: linear-gradient(rgba(255, 255, 255, 0.4), #fff7f7), url(../../images/cherry-blossoms.jpg) no-repeat center top fixed;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.logo {
+  height: 75%;
+  img {
+    max-width: 400px;
+  }
+}
+
+nav {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  ul {
+    display: block;
+    text-align: center;
+    padding: 0;
+    li {
+    display: inline-block;
+    height: 2rem;
+    list-style-type: none;
+    line-height: 2rem;
+    margin: 0 2rem;
+    border-radius: 3px;
+    a {
+      display: block;
+      width: calc(100% + 2rem);
+    }
+      :hover {
+        color: #fff7f7;
+        background: linear-gradient(#a03038, #871e25);
+        transition-duration: 0.3s;
+      }
+    }
+  }
+}

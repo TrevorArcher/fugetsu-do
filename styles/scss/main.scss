@@ -1,54 +1,5 @@
 @import '_utilities';
-
-*{
-  margin: 0;
-}
-
-body {
-  box-sizing: border-box;
-  font-family: $defaultFont;
-  font-size: 110%;
-  background-color: rgb(238,238,238);
-}
-
-a {
-text-decoration: none;
-font-weight: bold;
-color: #871e25;
-}
-
-//header
-
-header {
-  position: relative;
-  height: 50vh;
-  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(238,238,238, 1)), url(../../images/cherry-blossoms.jpg) no-repeat center top fixed;
-  text-align: center;
-  padding-top: 2rem;
-}
-
-.logo {
-  height: 80%;
-  img {
-    max-width: 400px;
-  }
-}
-
-nav {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  ul {
-    display: block;
-    padding: 0;
-    li {
-    display: inline-block;
-    list-style-type: none;
-    margin: 0 2rem;
-
-    }
-  }
-}
+@import '_universal';
 
 //first content div (store info)
 
@@ -75,7 +26,7 @@ nav {
 
 .mochi-bits {
   width: 100%;
-  background-color: #ddd; //change this color
+  background-color: #f0f0f0; //change this color
   text-align: center;
   padding: 3rem 0;
   margin: 3rem auto;
