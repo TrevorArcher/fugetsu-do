@@ -3,29 +3,81 @@
 
 body {
   box-sizing: border-box;
-  font-family: "proxima-nova", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-size: 110%;
   background-color: #eeeeee; }
 
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #871e25; }
+
 header {
+  position: relative;
   height: 50vh;
-  background: linear-gradient(rgba(255, 255, 255, 0.6), #eeeeee);
-  text-align: center; }
+  background: linear-gradient(rgba(255, 255, 255, 0.4), #eeeeee), url(../../images/cherry-blossoms.jpg) no-repeat center top fixed;
+  text-align: center;
+  padding-top: 2rem; }
 
 .logo {
-  height: 60%;
-  background: url("../../images/fugetsu-do.png") no-repeat fixed center; }
+  height: 80%; }
+  .logo img {
+    max-width: 400px; }
 
 nav {
-  background-color: transparent; }
-  nav li {
-    background-color: inherit;
-    list-style-type: none;
-    text-decoration: none; }
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+  nav ul {
+    display: block;
+    padding: 0; }
+    nav ul li {
+      display: inline-block;
+      list-style-type: none;
+      margin: 0 2rem; }
 
-.store-info div {
-  display: inline-block;
+.store-info {
+  margin: 3rem auto;
+  text-align: center; }
+  .store-info h1 {
+    text-align: center;
+    margin-bottom: 2rem; }
+  .store-info div {
+    display: inline-block;
+    width: 30%;
+    min-width: 15rem;
+    vertical-align: text-top;
+    margin: 0 auto; }
+    .store-info div h2 {
+      margin-bottom: 0.25rem; }
+
+.mochi-bits {
+  width: 100%;
+  background-color: #ddd;
   text-align: center;
-  width: 48%;
-  height: 100%; }
+  padding: 3rem 0;
+  margin: 3rem auto; }
+  .mochi-bits h2 {
+    margin-bottom: 2rem; }
+  .mochi-bits img {
+    max-width: 25rem; }
+  .mochi-bits .mochi-desc {
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    vertical-align: top;
+    margin-left: 4rem; }
+    .mochi-bits .mochi-desc p {
+      margin-bottom: 0.75rem; }
+
+.reviews {
+  width: 65%;
+  text-align: center;
+  margin: 3rem auto; }
+  .reviews h2 {
+    margin-bottom: 1rem; }
+  .reviews p:nth-of-type(2n) {
+    margin: 0.5rem auto;
+    font-weight: bold; }
 
 /*# sourceMappingURL=main.css.map */

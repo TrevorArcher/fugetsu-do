@@ -7,34 +7,107 @@
 body {
   box-sizing: border-box;
   font-family: $defaultFont;
+  font-size: 110%;
   background-color: rgb(238,238,238);
 }
 
+a {
+text-decoration: none;
+font-weight: bold;
+color: #871e25;
+}
+
+//header
+
 header {
+  position: relative;
   height: 50vh;
-  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(238,238,238, 1));
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(238,238,238, 1)), url(../../images/cherry-blossoms.jpg) no-repeat center top fixed;
   text-align: center;
+  padding-top: 2rem;
 }
 
 .logo {
-  height: 60%;
-  background: url('../../images/fugetsu-do.png') no-repeat fixed center;
-}
-
-nav {
-  background-color: transparent;
-  li {
-    background-color: inherit;
-    list-style-type: none;
-    text-decoration: none;
+  height: 80%;
+  img {
+    max-width: 400px;
   }
 }
 
+nav {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  ul {
+    display: block;
+    padding: 0;
+    li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 2rem;
+
+    }
+  }
+}
+
+//first content div (store info)
+
 .store-info {
+  margin: 3rem auto;
+  text-align: center;
+  h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
   div {
     display: inline-block;
+    width: 30%;
+    min-width: 15rem;
+    vertical-align: text-top;
+    margin: 0 auto;
+    h2 {
+      margin-bottom: 0.25rem;
+    }
+  }
+}
+
+//second content div (mochi bits)
+
+.mochi-bits {
+  width: 100%;
+  background-color: #ddd; //change this color
+  text-align: center;
+  padding: 3rem 0;
+  margin: 3rem auto;
+  h2 {
+    margin-bottom: 2rem;
+  }
+  img {
+    max-width: 25rem;
+  }
+  .mochi-desc {
+    display: inline-block;
+    width: 45%;
     text-align: center;
-    width: 48%;
-    height: 100%;
+    vertical-align: top;
+    margin-left: 4rem;
+    p {
+      margin-bottom: 0.75rem;
+    }
+  }
+}
+
+//third content div (reviews and misc.)
+
+.reviews {
+  width: 65%;
+  text-align: center;
+  margin: 3rem auto;
+  h2 {
+    margin-bottom: 1rem;
+  }
+  p:nth-of-type(2n){
+    margin: 0.5rem auto;
+    font-weight: bold;
   }
 }
