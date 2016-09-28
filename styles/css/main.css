@@ -11,9 +11,16 @@ header {
   background: linear-gradient(rgba(255, 255, 255, 0.6), #eeeeee);
   text-align: center; }
 
-nav li {
-  list-style-type: none;
-  text-decoration: none; }
+.logo {
+  height: 60%;
+  background: url("../../images/fugetsu-do.png") no-repeat fixed center; }
+
+nav {
+  background-color: transparent; }
+  nav li {
+    background-color: inherit;
+    list-style-type: none;
+    text-decoration: none; }
 
 .store-info div {
   display: inline-block;
