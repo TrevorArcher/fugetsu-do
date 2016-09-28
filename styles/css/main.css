@@ -1,0 +1,24 @@
+* {
+  margin: 0; }
+
+body {
+  box-sizing: border-box;
+  font-family: "proxima-nova", sans-serif;
+  background-color: #eeeeee; }
+
+header {
+  height: 50vh;
+  background: linear-gradient(rgba(255, 255, 255, 0.6), #eeeeee);
+  text-align: center; }
+
+nav li {
+  list-style-type: none;
+  text-decoration: none; }
+
+.store-info div {
+  display: inline-block;
+  text-align: center;
+  width: 48%;
+  height: 100%; }
+
+/*# sourceMappingURL=main.css.map */
