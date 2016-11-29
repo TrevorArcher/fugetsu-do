@@ -5,7 +5,8 @@ body {
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
   font-size: 110%;
-  background-color: #fff7f7; }
+  background-color: #fff7f7;
+  text-align: center; }
 
 a {
   text-decoration: none;
