@@ -21,9 +21,11 @@ header {
   padding-top: 1rem; }
 
 .logo {
-  height: 75%; }
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto; }
   .logo img {
-    max-width: 400px; }
+    width: 100%; }
 
 nav {
   position: absolute;
