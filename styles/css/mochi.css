@@ -14,8 +14,6 @@ a {
   color: #871e25; }
 
 header {
-  position: relative;
-  height: 50vh;
   background: linear-gradient(rgba(255, 255, 255, 0.4), #fff7f7), url(../../images/cherry-blossoms.jpg) no-repeat center top fixed;
   text-align: center;
   padding-top: 1rem; }
@@ -28,9 +26,8 @@ header {
     width: 100%; }
 
 nav {
-  position: absolute;
-  bottom: 0;
-  width: 100%; }
+  width: 100%;
+  margin-top: 1rem; }
   nav ul {
     display: block;
     text-align: center;
