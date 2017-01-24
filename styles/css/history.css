@@ -44,10 +44,20 @@ nav {
       border-radius: 3px; }
       nav ul li a {
         display: block;
-        width: calc(100% + 2rem); }
+        width: calc(100% + 2rem);
+        border-radius: 2px; }
       nav ul li :hover {
         color: #fff7f7;
         background: linear-gradient(#a03038, #871e25);
         transition-duration: 0.3s; }
+
+.content {
+  display: inline-block;
+  margin: 1rem auto;
+  width: 85%;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 2px; }
+  .content * {
+    margin-top: 1rem; }
 
 /*# sourceMappingURL=history.css.map */
