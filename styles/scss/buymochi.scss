@@ -1,2 +1,13 @@
 @import '_utilities';
 @import '_universal';
+
+.product {
+  img {
+    display: inline-block;
+    max-width: 25%;
+  }
+  p {
+    display: inline-block;
+    max-width: 65%;
+  }
+}
